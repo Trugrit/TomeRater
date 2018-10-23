@@ -55,6 +55,3 @@ print("Most read book:")
 print(Tome_Rater.get_most_read_book())
 print('\nMost read books:')
 print(Tome_Rater.get_n_most_read_books(5))
-
-
-print(Tome_Rater.user['dylan@gmail.com'].number_of_books)
