@@ -200,6 +200,4 @@ class TomeRater:
         lst = lst[:n]
         return '\n'.join(lst)
 
-    def get_n_most_prolific_readers(self, n):
-        # take in a number N and return N users that have read the most in descending order
-        pass
+
