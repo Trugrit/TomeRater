@@ -110,9 +110,6 @@ class TomeRater:
         self.books = {}  # Map a BOOK Object to the number of Users that have read it
         # {BOOK:,(Num of Users that read it)}
 
-    # def __repr__(self):
-    #     return ('TomeRater Initialized')
-
     def create_book(self, title, isbn):
         return Book(title, isbn)
 
